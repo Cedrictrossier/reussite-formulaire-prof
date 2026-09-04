@@ -348,30 +348,6 @@ textarea:focus {
     accent-color: var(--primary-color);
 }
 
-/* Floating Test Button */
-.btn-test {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 9999;
-    padding: 10px 20px;
-    background: var(--secondary-color);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: var(--shadow-md);
-    transition: var(--transition);
-    border: 2px solid rgba(255, 255, 255, 0.1);
-}
-
-.btn-test:hover {
-    background: var(--primary-color);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(217, 83, 79, 0.4);
-}
-
 /* Experience Grid */
 .experience-grid {
     overflow-x: auto;
@@ -546,13 +522,6 @@ textarea:focus {
         padding: 14px 24px;
     }
 
-    .btn-test {
-        top: 10px;
-        right: 10px;
-        padding: 8px 14px;
-        font-size: 0.8rem;
-    }
-
     textarea {
         min-height: 80px;
     }
@@ -701,12 +670,6 @@ textarea:focus {
         margin-top: 20px;
     }
 
-    .btn-test {
-        top: 8px;
-        right: 8px;
-        padding: 6px 12px;
-        font-size: 0.75rem;
-    }
 }
 
 /* --- Very Small Phone (max-width: 360px) --- */
